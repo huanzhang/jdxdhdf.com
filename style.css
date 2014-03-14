@@ -133,6 +133,9 @@ body {
  * Homepage panels
  *
  */
+.panel {
+    margin-bottom: 0px;
+}
 .myPanels {
     margin-top: 10px;
 }
@@ -157,11 +160,15 @@ body {
     color: #e6002c;
 }
 .leftPanel .panel-body {
-    background: url(/images/newsbg.gif) left no-repeat;
     height: 155px;
 }
+.leftPanel {
+    padding-right: 0;
+}
+.rightPanel{
+    padding-left: 0;
+}
 .midPanel .panel-body {
-    background: url(/images/smartcitybg.gif) left no-repeat;
     height: 155px;
 }
 .myPanels .glyphicon-play-circle {
@@ -169,7 +176,6 @@ body {
     color: red;
 }
 .rightPanel .panel-body {
-    background: url(/images/solutionsbg.gif) left no-repeat;
     height: 155px;
 }
 .rightPanel .panel-body .well {
