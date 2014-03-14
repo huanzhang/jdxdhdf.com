@@ -1,0 +1,274 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5c5c5c;
+  background: url("/images/bg.png") top repeat-x #fff;
+  font: 76%/140% Verdana,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.container {
+    width: 990px;
+}
+
+/*
+ * Top area
+ *
+ * Logo and search form
+ */
+#top {
+    height: 95px;
+}
+#top .logo {
+    float: left;
+    margin: 15px 0 0 0;
+}
+#top .logo a {
+    background: url("/images/logo.gif") no-repeat 0 0;
+    width: 250px;
+    height: 57px;
+    display: block;
+    text-indent: -9999px;
+}
+#top .topnav {
+    margin-top: 40px;
+    font-size: 14px;
+}
+#top .topnav li {
+    padding-left: 8px;
+}
+#top .topnav a {
+    color: #a8a8aa;
+}
+.ico_contact {
+    background: url(/images/ico_contact.gif) no-repeat 0 0;
+    width: 11px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin: 4px 3px 0 0;
+}
+.ico_map {
+    background: url(/images/ico_map.gif) no-repeat 0 0;
+    margin: 4px 3px 0 0;
+    width: 8px;
+    height: 8px;
+    display: block;
+    float: left;
+    margin: 4px 3px 0 0;
+}
+#top .search {
+    margin-top: 35px;
+    padding-left: 0px;
+}
+#top .search div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*
+ * Navbar
+ */
+#menu {
+    height: 34px;
+    border: solid #bebebe;
+    border-width: 1px 1px 0 1px;
+}
+.navItem {
+    margin-left: 0px;
+}
+.navItem>a {
+    display: block;
+    background: url(/images/menubg.png) left repeat-x;
+    width: 135px;
+    margin: 0 0 0 0;
+    height: 34px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5c5c;
+    text-decoration: none;
+    line-height: 20px;
+    border-radius: 0px !important;
+    z-index: 100;
+}
+.navItem>a:hover {
+    z-index: 300;
+    background: url(/images/menubghover.png) left repeat-x;
+    color: #e6002c;
+}
+.navItem .selected {
+    z-index: 300;
+    background: url(/images/menubghover.png) left repeat-x;
+}
+.subItems {
+    border-radius: 0px;
+    box-shadow: none;
+    margin: -2px 0 0 0;
+    border: solid #e6e6e6;
+    border-width: 1px;
+    z-index: 200;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+/*
+ * Carousel 
+ *
+ */
+#myCarousel {
+    margin-top: 8px;
+}
+
+/*
+ * Homepage panels
+ *
+ */
+.myPanels {
+    margin-top: 10px;
+}
+.myPanels .panel {
+    border-radius: 0px;
+}
+.myPanels .panel-heading {
+    background: url(/images/panelbg.gif) left repeat-x;
+}
+.myPanels .glyphicon-expand {
+    font-size: 14px;
+    color: red;
+}
+.myPanels a:hover {
+    color: #e6002c;
+    text-decoration: none;
+}
+.myPanels .panel-body a {
+    color:#717171;
+}
+.myPanels .panel-body a:hover {
+    color: #e6002c;
+}
+.leftPanel .panel-body {
+    background: url(/images/newsbg.gif) left no-repeat;
+    height: 155px;
+}
+.midPanel .panel-body {
+    background: url(/images/smartcitybg.gif) left no-repeat;
+    height: 155px;
+}
+.myPanels .glyphicon-play-circle {
+    font-size: 12px;
+    color: red;
+}
+.rightPanel .panel-body {
+    background: url(/images/solutionsbg.gif) left no-repeat;
+    height: 155px;
+}
+.rightPanel .panel-body .well {
+    width: 120px;
+    padding: 5px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+.rightPanel .panel-body a {
+    margin-left: 5px;
+}
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+/* By default it's not affixed in mobile views, so undo that */
+.sidebar.affix {
+  position: static;
+}
+/* First level of nav */
+.sidenav {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 #fff;
+}
+/* All levels of nav */
+.sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+  padding: 5px 20px;
+}
+.sidebar > .nav > li > a {
+  background: url(/images/list_arrow_red.gif) 10px 10px no-repeat;
+}
+.sidebar > .nav > .active > a {
+  background: url(/images/list_arrow_red2.gif) 10px 12px no-repeat !important;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+  border-right: 2px solid #e6002c;
+  color: #e6002c;
+}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+  color: #e6002c;
+  background-color: transparent;
+  border-right: 2px solid #e6002c;
+}
+/* Nav: second level (shown on .active) */
+.sidebar .nav .nav {
+  display: none; /* Hide by default, but at >768px, show it */
+}
+.sidebar .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 40px;
+  font-size: 90%;
+}
+.sidebar .nav > .active > ul {
+  display: block;
+}
+.sidebar.affix,
+.sidebar.affix-top,
+.sidebar.affix-bottom {
+  width: 155px;
+}
+.sidebar.affix-bottom .sidenav,
+.sidebar.affix .sidenav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar.affix {
+  position: fixed; /* Undo the static from mobile first approach */
+  top: 160px;
+}
+.sidebar.affix-bottom {
+  position: absolute; /* Undo the static from mobile first approach */
+}
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+}
+.sidebar .nav a {
+    border: 1px solid #e5e5e5;
+    margin: 0 0 -1px;
+}
+
+/*
+ * Content Top
+ */
+.content-top {
+    margin-top: 10px;
+}
