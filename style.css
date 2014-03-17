@@ -165,8 +165,11 @@ body {
 .leftPanel {
     padding-right: 0;
 }
-.rightPanel{
-    padding-left: 0;
+.midPanel{
+    padding-right: 0;
+}
+.autoHeight{
+    height: auto !important;
 }
 .midPanel .panel-body {
     height: 155px;
@@ -297,7 +300,7 @@ body {
 }
 .scroll-img ul li {
   display: inline-block;
-  margin: 10px 0 10px 10px;
+  margin: 15px 0 10px 3px;
 }
 #scrollbox.scroll-img ul {
   width: 1500px;
