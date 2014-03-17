@@ -6,8 +6,6 @@
 <!--== Footer End ==-->
 
 </div>
-<script src="https://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="/common.js"></script>
 </body>
 </html>

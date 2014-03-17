@@ -278,3 +278,27 @@ body {
 .content-top {
     margin-top: 10px;
 }
+
+/*
+ * Scroll Box
+ */
+.scroll-img {
+  height: 142px;
+  overflow: hidden;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+.scroll-img ul {
+  width: 700px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+.scroll-img ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+#scrollbox.scroll-img ul {
+  width: 1500px;
+}

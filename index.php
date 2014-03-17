@@ -100,8 +100,26 @@
           <a href="#">产品展示</a>
         </h3>
       </div>
-      <div class="panel-body">
+      <div id="scrollbox" class="panel-body scroll-img">
+        <ul>
+            <li><a href="#" target="_blank"><img src="/images/normal_1688.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_3810.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_511.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_840.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_1459.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_234.png"></a></li>
+            <li><a href="#" target="_blank"><img src="/images/normal_485.png"></a></li>
+        </ul>
       </div>
+      <script src="/js/jquery.scrollbox.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('#scrollbox').scrollbox({
+                    direction: 'h',
+                    distance: 134,
+              });
+          });
+      </script>
     </div>
   </div>
 </div>
