@@ -27,101 +27,107 @@
 </div>
 <!--== Carousel End ==-->
 
-<!--== Columns ==-->
-<div class="row myPanels">
-  <div class="col-xs-3 leftPanel">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-          <h3 class="panel-title">
-            <span class="glyphicon glyphicon-expand"></span>
-            <a href="#">新闻中心</a>
-          </h3>
+<!--== Content ==-->
+<div class="row">
+  <div class="col-xs-3">
+    <div class="row myPanels">
+       <div class="col-xs-12 leftPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">
+                <span class="glyphicon glyphicon-expand"></span>
+                <a href="#">新闻中心</a>
+              </h3>
+          </div>
+          <div class="panel-body">
+              <h6>
+                <small><span class="glyphicon glyphicon-play"></span></small>
+                <a href="#">文物保护传承专用装备产业技术...</a>
+              </h6>
+          </div>
+        </div>
       </div>
-      <div class="panel-body">
-          <h6>
-            <small><span class="glyphicon glyphicon-play"></span></small>
-            <a href="#">文物保护传承专用装备产业技术...</a>
-          </h6>
+    </div>
+    <div class="row myPanels">
+      <div class="col-xs-12 leftPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">
+                <span class="glyphicon glyphicon-expand"></span>
+                <a href="#">联系我们</a>
+              </h3>
+          </div>
+          <div class="panel-body">
+              <h6>
+                <small><span class="glyphicon glyphicon-play"></span></small>
+                <a href="#">文物保护传承专用装备产业技术...</a>
+              </h6>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-xs-5 midPanel">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">
-          <span class="glyphicon glyphicon-expand"></span>
-          <a href="#">关于我们</a>
-        </h3>
+  <div class="col-xs-9">
+    <div class="row myPanels">
+      <div class="col-xs-5 midPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <span class="glyphicon glyphicon-expand"></span>
+              <a href="#">关于我们</a>
+            </h3>
+          </div>
+          <div class="panel-body">
+          </div>
+        </div>
       </div>
-      <div class="panel-body">
+      <div class="col-xs-7 rightPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <span class="glyphicon glyphicon-expand"></span>
+              <a href="#">经典案例</a>
+            </h3>
+          </div>
+          <div id="scrollbox" class="panel-body scroll-img">
+            <ul>
+                <li><a href="#"><img src="/images/normal_1688.png"></a></li>
+                <li><a href="#"><img src="/images/normal_3810.png"></a></li>
+                <li><a href="#"><img src="/images/normal_511.png"></a></li>
+                <li><a href="#"><img src="/images/normal_840.png"></a></li>
+                <li><a href="#"><img src="/images/normal_1459.png"></a></li>
+                <li><a href="#"><img src="/images/normal_234.png"></a></li>
+                <li><a href="#"><img src="/images/normal_485.png"></a></li>
+            </ul>
+          </div>
+          <script src="/js/jquery.scrollbox.js"></script>
+          <script>
+              $(function() {
+                  $('#scrollbox').scrollbox({
+                        direction: 'h',
+                        distance: 134,
+                  });
+              });
+          </script>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-xs-4 rightPanel">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">
-          <span class="glyphicon glyphicon-expand"></span>
-          <a href="#">经典案例</a>
-        </h3>
-      </div>
-      <div class="panel-body">
-        <div class="row">
+    <div class="row myPanels">
+      <div class="col-xs-12 midPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <span class="glyphicon glyphicon-expand"></span>
+              <a href="#">产品展示</a>
+            </h3>
+          </div>
+          <div class="panel-body">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!--== Columns End ==-->
+<!--== End Content ==-->
 
-<!--== Columns ==-->
-<div class="row myPanels">
-  <div class="col-xs-3 leftPanel">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-          <h3 class="panel-title">
-            <span class="glyphicon glyphicon-expand"></span>
-            <a href="#">联系我们</a>
-          </h3>
-      </div>
-      <div class="panel-body">
-          <h6>
-            <small><span class="glyphicon glyphicon-play"></span></small>
-            <a href="#">文物保护传承专用装备产业技术...</a>
-          </h6>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-9 midPanel">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">
-          <span class="glyphicon glyphicon-expand"></span>
-          <a href="#">产品展示</a>
-        </h3>
-      </div>
-      <div id="scrollbox" class="panel-body scroll-img">
-        <ul>
-            <li><a href="#" target="_blank"><img src="/images/normal_1688.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_3810.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_511.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_840.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_1459.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_234.png"></a></li>
-            <li><a href="#" target="_blank"><img src="/images/normal_485.png"></a></li>
-        </ul>
-      </div>
-      <script src="/js/jquery.scrollbox.js"></script>
-      <script>
-          $(document).ready(function() {
-              $('#scrollbox').scrollbox({
-                    direction: 'h',
-                    distance: 134,
-              });
-          });
-      </script>
-    </div>
-  </div>
-</div>
-<!--== Columns End ==-->
 <?php include "include/footer.php"?>
