@@ -5,7 +5,7 @@
         <a href="/">首页</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">关于我们</a>
+        <a class="dropdown-toggle" href="/about.php">关于我们</a>
       </li>
       <li class="dropdown navItem">
         <a class="dropdown-toggle" href="#">产品展示</a>
