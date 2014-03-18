@@ -191,6 +191,15 @@ body {
 .rightPanel .panel-body a {
     margin-left: 5px;
 }
+#newsPanel .panel-body {
+    background: url(/images/newsbg.gif) left no-repeat;
+}
+#contactPanel .panel-body {
+    background: url(/images/contactbg.gif) left no-repeat;
+}
+#aboutPanel .panel-body {
+    background: url(/images/aboutbg.gif) left no-repeat;
+}
 
 /*
  * Side navigation

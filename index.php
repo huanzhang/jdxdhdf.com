@@ -7,7 +7,7 @@
 <div class="row">
   <div class="col-xs-3">
     <div class="row myPanels">
-       <div class="col-xs-12 leftPanel">
+       <div id="newsPanel" class="col-xs-12 leftPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
               <h3 class="panel-title">
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="row myPanels">
-      <div class="col-xs-12 leftPanel">
+      <div id="contactPanel" class="col-xs-12 leftPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
               <h3 class="panel-title">
@@ -76,7 +76,7 @@
   </div>
   <div class="col-xs-9">
     <div class="row myPanels">
-      <div class="col-xs-5 midPanel">
+      <div id="aboutPanel" class="col-xs-5 midPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
