@@ -21,8 +21,8 @@
   <a href="/" title="京东兴达活集装箱动房"><img src="/images/logo.png"></a>
 </div>
 <div class="col-xs-3 col-xs-offset-5">
-  <div id="contact"> 
-    <p class="phone"><span class="glyphicon glyphicon-phone-alt" style="color:#e6002c;margin-right:6px;"></span>13366576929</p>
+  <div class="align-right" id="contact"> 
+    <p class="phone pull-right"><span class="glyphicon glyphicon-phone-alt" style="color:#e6002c;margin-right:6px;"></span>13366576929</p>
   </div>
 </div>
 </div>
