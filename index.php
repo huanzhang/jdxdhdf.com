@@ -1,8 +1,6 @@
 <?php $title="京东兴达活动房"; include "include/header.php"?>
-
-<?php include "include/top.php"?>
-
 <?php include "include/nav.php"?>
+
 
 <!--== Carousel ==-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -110,13 +108,14 @@
           </div>
           <div id="scrollbox" class="panel-body scroll-img">
             <ul>
-                <li><a href="#"><img src="/images/normal_1688.png"></a></li>
-                <li><a href="#"><img src="/images/normal_3810.png"></a></li>
-                <li><a href="#"><img src="/images/normal_511.png"></a></li>
-                <li><a href="#"><img src="/images/normal_840.png"></a></li>
-                <li><a href="#"><img src="/images/normal_1459.png"></a></li>
-                <li><a href="#"><img src="/images/normal_234.png"></a></li>
-                <li><a href="#"><img src="/images/normal_485.png"></a></li>
+                <li><a href="#"><img src="/images/box1.jpg"></a></li>
+                <li><a href="#"><img src="/images/box2.jpg"></a></li>
+                <li><a href="#"><img src="/images/box3.jpg"></a></li>
+                <li><a href="#"><img src="/images/box4.jpg"></a></li>
+                <li><a href="#"><img src="/images/box5.jpg"></a></li>
+                <li><a href="#"><img src="/images/box6.jpg"></a></li>
+                <li><a href="#"><img src="/images/box7.jpg"></a></li>
+                <li><a href="#"><img src="/images/box8.jpg"></a></li>
             </ul>
           </div>
           <script src="/js/jquery.scrollbox.js"></script>
@@ -156,5 +155,6 @@
   </div>
 </div>
 <!--== End Content ==-->
+
 
 <?php include "include/footer.php"?>

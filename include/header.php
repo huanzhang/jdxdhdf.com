@@ -15,3 +15,16 @@
 </head>
 <body>
 <div class="container">
+<!--== Top ==-->
+<div id="top" class="row">
+<div class="logo col-xs-4">
+  <a href="/" title="京东兴达活集装箱动房"><strong><h2>京东兴达集装箱活动房</h2></strong></a>
+</div>
+<div class="col-xs-2 col-xs-offset-6">
+  <div id="contact"> 
+    <p class="phone">13366576929</p>
+  </div>
+</div>
+</div>
+<!--== Top End ==-->
+

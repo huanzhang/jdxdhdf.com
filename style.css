@@ -11,6 +11,7 @@ body {
   padding: 0;
   white-space: normal;
   word-break: break-all;
+  font-family: "Microsoft YaHei","微软雅黑","SimHei","黑体";
 }
 
 .container {
@@ -27,14 +28,11 @@ body {
 }
 #top .logo {
     float: left;
-    margin: 15px 0 0 0;
+    margin: 20px 0 0 0;
 }
 #top .logo a {
-    background: url("/images/logo.gif") no-repeat 0 0;
-    width: 250px;
-    height: 57px;
     display: block;
-    text-indent: -9999px;
+    color: #e6002c;
 }
 #top .topnav {
     margin-top: 40px;
@@ -71,7 +69,13 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 }
-
+#contact .phone {
+    background: url(/images/phone.png) left no-repeat;
+    padding: 0px 0px 0px 28px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 55px 0px 0px 0px;
+}
 
 /*
  * Navbar
@@ -80,6 +84,7 @@ body {
     height: 34px;
     border: solid #bebebe;
     border-width: 1px 1px 0 1px;
+    font-family: 'Arvo', serif;
 }
 .navItem {
     margin-left: 0px;
