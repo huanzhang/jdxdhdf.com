@@ -34,6 +34,9 @@ body {
     display: block;
     color: #e6002c;
 }
+#top .logo a:link {
+    text-decoration:none;
+}
 #top .topnav {
     margin-top: 40px;
     font-size: 14px;
