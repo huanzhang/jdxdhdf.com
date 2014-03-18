@@ -7,5 +7,6 @@
 
 </div>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="/js/common.js"></script>
 </body>
 </html>

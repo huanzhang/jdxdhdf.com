@@ -20,11 +20,10 @@
 <div class="logo col-xs-4">
   <a href="/" title="京东兴达活集装箱动房"><img src="/images/logo.png"></a>
 </div>
-<div class="col-xs-3 col-xs-offset-5">
+<div class="col-xs-4 col-xs-offset-4">
   <div class="align-right" id="contact"> 
-    <p class="phone pull-right"><span class="glyphicon glyphicon-phone-alt" style="color:#e6002c;margin-right:6px;"></span>13366576929</p>
+    <h3 class="phone pull-right"><span class="glyphicon glyphicon-phone-alt" style="color:#e6002c;margin-right:6px;"></span>13366576929</h3>
   </div>
 </div>
 </div>
 <!--== Top End ==-->
-
