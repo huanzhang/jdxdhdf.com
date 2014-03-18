@@ -30,13 +30,6 @@ body {
     float: left;
     margin: 20px 0 0 0;
 }
-#top .logo a {
-    display: block;
-    color: #e6002c;
-}
-#top .logo a:link {
-    text-decoration:none;
-}
 #top .topnav {
     margin-top: 40px;
     font-size: 14px;
@@ -73,7 +66,6 @@ body {
     padding-right: 5px;
 }
 #contact .phone {
-    background: url(/images/phone.png) left no-repeat;
     padding: 0px 0px 0px 28px;
     font-size: 17px;
     font-weight: bold;
