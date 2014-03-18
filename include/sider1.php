@@ -5,7 +5,7 @@
       <div class="panel-heading">
           <h3 class="panel-title">
             <span class="glyphicon glyphicon-expand"></span>
-            <a href="#">新闻中心</a>
+            <a href="/news.php">新闻中心</a>
           </h3>
       </div>
       <div class="panel-body">
@@ -39,7 +39,7 @@
       <div class="panel-heading">
           <h3 class="panel-title">
             <span class="glyphicon glyphicon-expand"></span>
-            <a href="#">联系我们</a>
+            <a href="/contact.php">联系我们</a>
           </h3>
       </div>
       <div class="panel-body">
@@ -57,11 +57,11 @@
       <div class="panel-heading">
           <h3 class="panel-title">
             <span class="glyphicon glyphicon-expand"></span>
-            <a href="#">地图</a>
+            <a href="/contact.php">地图</a>
           </h3>
       </div>
       <div class="panel-body" style="height:159px;padding:2px;">
-        <img src="/images/map.png">
+        <a href="/contact.php"><img src="/images/map.png"></a>
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
           <div class="panel-heading">
             <h3 class="panel-title">
               <span class="glyphicon glyphicon-expand"></span>
-              <a href="#">关于我们</a>
+              <a href="/about.php">关于我们</a>
             </h3>
           </div>
           <div class="panel-body">
@@ -33,7 +33,7 @@
           <div class="panel-heading">
             <h3 class="panel-title">
               <span class="glyphicon glyphicon-expand"></span>
-              <a href="#">经典案例</a>
+              <a href="/cases.php">经典案例</a>
             </h3>
           </div>
           <div id="scrollbox" class="panel-body scroll-img">
@@ -66,7 +66,7 @@
           <div class="panel-heading">
             <h3 class="panel-title">
               <span class="glyphicon glyphicon-expand"></span>
-              <a href="#">产品展示</a>
+              <a href="/products.php">产品展示</a>
             </h3>
           </div>
           <div class="panel-body autoHeight">

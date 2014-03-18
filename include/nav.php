@@ -8,19 +8,19 @@
         <a class="dropdown-toggle" href="/about.php">关于我们</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">产品展示</a>
+        <a class="dropdown-toggle" href="/products.php">产品展示</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">生产现场</a>
+        <a class="dropdown-toggle" href="/site.php">生产现场</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">经典案例</a>
+        <a class="dropdown-toggle" href="/cases.php">经典案例</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">新闻中心</a>
+        <a class="dropdown-toggle" href="/news.php">新闻中心</a>
       </li>
       <li class="dropdown navItem">
-        <a class="dropdown-toggle" href="#">联系我们</a>
+        <a class="dropdown-toggle" href="/contact.php">联系我们</a>
       </li>
     </ul>
 </div>
