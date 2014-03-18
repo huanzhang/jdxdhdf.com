@@ -81,6 +81,21 @@
         </div>
       </div>
     </div>
+    <div class="row myPanels">
+      <div class="col-xs-12 leftPanel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <h3 class="panel-title">
+                <span class="glyphicon glyphicon-expand"></span>
+                <a href="#">地图</a>
+              </h3>
+          </div>
+          <div class="panel-body" style="height:159px;padding:2px;">
+            <img src="/images/map.gif">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="col-xs-9">
     <div class="row myPanels">
