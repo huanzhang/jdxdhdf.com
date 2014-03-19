@@ -10,7 +10,7 @@
   </div>
   <div class="col-xs-9">
     <!--== Content ==-->
-    <div class="row myPanels">
+    <div class="row myPanel">
       <div id="aboutPanel" class="col-xs-5 midPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-7 rightPanel">
+      <div id="casesPanel" class="col-xs-7 rightPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
@@ -60,8 +60,8 @@
         </div>
       </div>
     </div>
-    <div class="row myPanels">
-      <div class="col-xs-12 rightPanel">
+    <div class="row myPanel">
+      <div id="productsPanel" class="col-xs-12 rightPanel">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
@@ -69,7 +69,7 @@
               <a href="/products.php">产品展示</a>
             </h3>
           </div>
-          <div class="panel-body autoHeight">
+          <div class="panel-body">
             <img class="img-thumbnail" src="/images/1.jpg" style="width: 167px; height: 167px;">
             <img class="img-thumbnail" src="/images/2.jpg" style="width: 167px; height: 167px;">
             <img class="img-thumbnail" src="/images/3.jpg" style="width: 167px; height: 167px;">

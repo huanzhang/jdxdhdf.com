@@ -94,37 +94,38 @@ body {
 }
 
 /*
- * Homepage panels
+ * Panel
  *
  */
 .panel {
     margin-bottom: 0px;
 }
-.myPanels {
+.myPanel {
     margin-top: 10px;
 }
-.myPanels .panel {
+.myPanel .panel {
     border-radius: 0px;
 }
-.myPanels .panel-heading {
+.myPanel .panel-heading {
     background: url(/images/panelbg.gif) left repeat-x;
 }
-.myPanels .glyphicon-expand {
+.myPanel .glyphicon-expand {
     font-size: 14px;
     color: red;
 }
-.myPanels a:hover {
+.myPanel a:hover {
     color: #e6002c;
     text-decoration: none;
 }
-.myPanels .panel-body a {
-    color:#717171;
+.myPanel .panel-body a {
+    color: #717171;
 }
-.myPanels .panel-body a:hover {
+.myPanel .panel-body a:hover {
     color: #e6002c;
 }
-.leftPanel .panel-body {
-    height: 155px;
+.myPanel .glyphicon-play-circle {
+    font-size: 12px;
+    color: red;
 }
 .leftPanel {
     padding-right: 0;
@@ -132,37 +133,30 @@ body {
 .midPanel{
     padding-right: 0;
 }
-.autoHeight{
-    height: auto !important;
-}
-.midPanel .panel-body {
-    height: 155px;
-}
-.myPanels .glyphicon-play-circle {
-    font-size: 12px;
-    color: red;
-}
-.rightPanel .panel-body {
-    height: 155px;
-}
-.rightPanel .panel-body .well {
-    width: 120px;
-    padding: 5px;
-    border-radius: 0px;
-    margin-bottom: 5px;
-    background-color: rgba(245, 245, 245, 0.4);
-}
-.rightPanel .panel-body a {
-    margin-left: 5px;
-}
 #newsPanel .panel-body {
+    height: 155px;
     background: url(/images/newsbg.gif) left no-repeat;
 }
 #contactPanel .panel-body {
+    height: 155px;
     background: url(/images/contactbg.gif) left no-repeat;
 }
 #aboutPanel .panel-body {
+    height: 155px;
     background: url(/images/aboutbg.gif) left no-repeat;
+}
+#casesPanel .panel-body {
+    height: 155px;
+}
+#casesPanel .panel-body a {
+    margin-left: 5px;
+}
+#productsPanel .panel-body {
+    padding: 14px 5px 6px 8px;
+}
+#productsPanel .panel-body img {
+    margin-right: 4px;
+    margin-bottom: 5px;
 }
 
 /*

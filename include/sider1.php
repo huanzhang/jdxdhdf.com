@@ -1,5 +1,5 @@
 <!--== Sider1 ==-->
-<div class="row myPanels">
+<div class="row myPanel">
   <div id="newsPanel" class="col-xs-12 leftPanel">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -33,7 +33,7 @@
     </div>
   </div>
 </div>
-<div class="row myPanels">
+<div class="row myPanel">
   <div id="contactPanel" class="col-xs-12 leftPanel">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -51,7 +51,7 @@
     </div>
   </div>
 </div>
-<div class="row myPanels">
+<div class="row myPanel">
   <div class="col-xs-12 leftPanel">
     <div class="panel panel-default">
       <div class="panel-heading">
