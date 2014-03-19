@@ -15,7 +15,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              <span class="glyphicon glyphicon-expand"></span>
+              <span class="glyphicon glyphicon-flag"></span>
               <a href="/about.php">关于我们</a>
             </h3>
           </div>
@@ -32,7 +32,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              <span class="glyphicon glyphicon-expand"></span>
+              <span class="glyphicon glyphicon-tasks"></span>
               <a href="/cases.php">经典案例</a>
             </h3>
           </div>
@@ -65,19 +65,19 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              <span class="glyphicon glyphicon-expand"></span>
+              <span class="glyphicon glyphicon-list-alt"></span>
               <a href="/products.php">产品展示</a>
             </h3>
           </div>
           <div class="panel-body">
-            <img class="img-thumbnail" src="/images/1.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/2.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/3.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/4.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/5.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/6.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/7.jpg" style="width: 167px; height: 167px;">
-            <img class="img-thumbnail" src="/images/8.jpg" style="width: 167px; height: 167px;">
+            <img class="img-thumbnail" src="/images/1.jpg">
+            <img class="img-thumbnail" src="/images/2.jpg">
+            <img class="img-thumbnail" src="/images/3.jpg">
+            <img class="img-thumbnail" src="/images/4.jpg">
+            <img class="img-thumbnail" src="/images/5.jpg">
+            <img class="img-thumbnail" src="/images/6.jpg">
+            <img class="img-thumbnail" src="/images/7.jpg">
+            <img class="img-thumbnail" src="/images/8.jpg">
           </div>
         </div>
       </div>

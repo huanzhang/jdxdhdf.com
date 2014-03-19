@@ -4,7 +4,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
           <h3 class="panel-title">
-            <span class="glyphicon glyphicon-expand"></span>
+            <span class="glyphicon glyphicon-globe"></span>
             <a href="/news.php">新闻中心</a>
           </h3>
       </div>
@@ -38,7 +38,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
           <h3 class="panel-title">
-            <span class="glyphicon glyphicon-expand"></span>
+            <span class="glyphicon glyphicon-envelope"></span>
             <a href="/contact.php">联系我们</a>
           </h3>
       </div>
@@ -56,7 +56,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">
           <h3 class="panel-title">
-            <span class="glyphicon glyphicon-expand"></span>
+            <span class="glyphicon glyphicon-road"></span>
             <a href="/contact.php">地图</a>
           </h3>
       </div>
