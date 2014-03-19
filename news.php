@@ -6,7 +6,7 @@
 
 <div class="row">
   <div class="col-xs-3">
-    <?php include "include/sider1.php"?>
+    <?php include "include/sider2.php"?>
   </div>
   <div class="col-xs-9">
     <!--== Content ==-->
