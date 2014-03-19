@@ -213,3 +213,19 @@ body {
 #siderNav .panel-default {
     border-bottom-width: 0px;
 }
+
+/*
+ * Breadcrumb
+ */
+#myBreadcrumb {
+    margin-top: 10px;
+}
+#myBreadcrumb .breadcrumb {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+#myBreadcrumb .breadcrumb a{
+    color: #e6002c;
+}
