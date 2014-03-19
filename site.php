@@ -9,6 +9,7 @@
     <?php include "include/sider2.php"?>
   </div>
   <div class="col-xs-9">
+    <?php $subpages = array("京东兴达"=>"/", "生产现场"=>"/site.php");include "include/breadcrumb.php"?>
     <!--== Content ==-->
     <!--== End Content ==-->
   </div>
