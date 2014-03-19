@@ -10,7 +10,7 @@
       </div>
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="#"><small><span class="glyphicon glyphicon-chevron-right"></span></small>集装箱活动房</a></li>
+          <li><a href="#">集装箱活动房</a></li>
           <li><a href="#">集装箱办公室</a></li>
           <li><a href="#">集装箱会议室</a></li>
           <li><a href="#">集装箱宿舍</a></li>
@@ -23,4 +23,8 @@
     </div>
   </div>
 </div>
+
+<?php include "include/contact_panel.php"?>
+
+<?php include "include/map_panel.php"?>
 <!--== End Sider2 ==-->

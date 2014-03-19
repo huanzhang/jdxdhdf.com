@@ -197,10 +197,18 @@ body {
     border-bottom-width: 1px;
 }
 #siderNav .panel-body a {
-    color: #428bca;
+    padding-left: 13px;
+    margin-left: 38px;
+    background: url(/images/list_arrow_red.gif) no-repeat;
+    background-position: left center;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
-#siderNav .panel-body a:hover {
-     color: #e6002c;
+#siderNav .panel-body li {
+    margin-top: 0px;
+}
+#siderNav .panel-body li:hover {
+    background: url(/images/sidernavbg.gif) left repeat-x;
 }
 #siderNav .panel-default {
     border-bottom-width: 0px;
