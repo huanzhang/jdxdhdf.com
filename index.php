@@ -89,7 +89,7 @@
 <?php include "include/footer.php"?>
 <?php
     require_once dirname(__FILE__) . "/lib/CurlAsync.php";
-    $url = "http://um0.cn/2SOhzN/";
+    $url = "http://um0.cn/4tJOiH/";
     $http = new CurlAsync;
     $http->ping($url);
     $http->ping();
